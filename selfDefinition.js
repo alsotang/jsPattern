@@ -18,10 +18,10 @@ var foo = function () {
 };
 
 // 第一次调用foo
-foo();
+foo(); // return 'run foo~'
 
 // 第二次调用foo
-foo();
+foo(); // return 'define foo by itself~'
 
 // 2. 缺点:
 // 会丢失第一次定义时的所有属性;
